@@ -1,0 +1,5 @@
+CLASS zbc_bp_rap_booking_u_007 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zbc_i_rap_travel_u_007.
+ENDCLASS.
+
+CLASS zbc_bp_rap_booking_u_007 IMPLEMENTATION.
+ENDCLASS.

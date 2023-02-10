@@ -1,0 +1,12 @@
+@EndUserText.label: 'Service Definition for ZBC_C_RAP_TRAVEL_U_007'
+define service Zbc_ui_rap_travel_u_007 {
+  expose Zbc_C_Rap_Travel_U_007 as Travel;
+  expose zbc_c_rap_booking_U_007 as Booking;
+  expose /DMO/I_Customer as Passenger;
+  expose /DMO/I_Agency as TravelAgency;
+  expose /DMO/I_Carrier as Airline;
+  expose /DMO/I_Flight as Flight;
+  expose /DMO/I_Connection as Connection;
+  expose /DMO/I_Airport as Airport;
+  expose I_Currency as Currency;
+}
